@@ -23,7 +23,7 @@ module.exports = {
    ],
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, '../wamp64/www')
+        path: path.resolve(__dirname, '../build')
     },
        module: {
          rules: [
